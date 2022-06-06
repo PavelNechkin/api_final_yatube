@@ -48,7 +48,6 @@ class FollowAdmin(admin.ModelAdmin):
     search_fields = ('user',)
 
 
-
 admin.site.register(Post, PostAdmin)
 admin.site.register(Group, GroupAdmin)
 admin.site.register(Comment, CommentAdmin)
