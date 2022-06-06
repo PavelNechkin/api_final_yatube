@@ -1,11 +1,11 @@
 import os
 from datetime import timedelta
 
-from .key import SECRET
+from .key import SECRET_KEY
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-SECRET_KEY = SECRET
+SECRET_KEY = SECRET_KEY
 
 DEBUG = True
 

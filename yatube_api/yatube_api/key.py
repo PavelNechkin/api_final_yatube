@@ -4,4 +4,4 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-SECRET = os.getenv('SECRET')
+SECRET_KEY = os.getenv('SECRET_KEY')
